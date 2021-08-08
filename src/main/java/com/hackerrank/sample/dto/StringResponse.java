@@ -12,6 +12,6 @@ public class StringResponse {
     }
 
     public void setEcho(String echo) {
-        this.echo = echo;
+        this.echo = echo; // This is commit
     }
 }
