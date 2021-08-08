@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.hackerrank.sample.SampleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 7.013 s <<< FAILURE! - in com.hackerrank.sample.SampleApplicationTests
+customHelloWithEmptyParamTest  Time elapsed: 1.307 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.echo"
+	at com.hackerrank.sample.SampleApplicationTests.customHelloWithEmptyParamTest(SampleApplicationTests.java:66)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.hackerrank.sample.SampleApplicationTests.customHelloWithEmptyParamTest(SampleApplicationTests.java:66)
+
+defaultHelloTest  Time elapsed: 0.766 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.echo"
+	at com.hackerrank.sample.SampleApplicationTests.defaultHelloTest(SampleApplicationTests.java:36)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.hackerrank.sample.SampleApplicationTests.defaultHelloTest(SampleApplicationTests.java:36)
+
+customHelloTest  Time elapsed: 0.605 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.echo"
+	at com.hackerrank.sample.SampleApplicationTests.customHelloTest(SampleApplicationTests.java:56)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.hackerrank.sample.SampleApplicationTests.customHelloTest(SampleApplicationTests.java:56)
+
+defaultHelloWithParamTest  Time elapsed: 0.732 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.echo"
+	at com.hackerrank.sample.SampleApplicationTests.defaultHelloWithParamTest(SampleApplicationTests.java:46)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.hackerrank.sample.SampleApplicationTests.defaultHelloWithParamTest(SampleApplicationTests.java:46)
+
+customHelloWithoutParamTest  Time elapsed: 0.795 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<404>
+	at com.hackerrank.sample.SampleApplicationTests.customHelloWithoutParamTest(SampleApplicationTests.java:75)
+
